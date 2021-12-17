@@ -291,7 +291,8 @@ body._lock {
 	left: 30%;
 	width: 10%;
 	height: 10%;
-	z-index: 4;
+	z-index: 2;
+	opacity: 0.4;
 }
 .parallax_one img {
 	max-width: 100%;
@@ -302,7 +303,8 @@ body._lock {
 	right: 0;
 	width: 10%;
 	height: 10%;
-	z-index: 4q;
+	z-index: 2;
+	opacity: 0.4;
 }
 .parallax_two img {
 	max-width: 40%;
@@ -314,9 +316,10 @@ body._lock {
 	width: 20%;
 	height: 20%;
 	z-index: 2;
+	opacity: 0.2;
 }
 .parallax_three img {
-	max-width: 60%;
+	max-width: 80%;
 }
 .parallax_four {
 	position: absolute;
@@ -324,7 +327,8 @@ body._lock {
 	right: 0;
 	width: 10%;
 	height: 10%;
-	z-index: 4q;
+	z-index: 2;
+	opacity: 0.4;
 }
 .parallax_four img {
 	max-width: 100%;
@@ -500,6 +504,9 @@ body.ie ._ibg img {
 	justify-content: center;
 	align-items: center;
 }
+.popup__content_video {
+	height: 100%;
+}
 .popup__body {
 	-webkit-transform: scale(0);
 	-ms-transform: scale(0);
@@ -512,6 +519,9 @@ body.ie ._ibg img {
 	width: 100%;
 	max-width: 1000px;
 }
+.popup__body_video {
+	height: 100%;
+}
 .popup__close {
 	width: 15px;
 	height: 15px;
@@ -521,6 +531,13 @@ body.ie ._ibg img {
 	cursor: pointer;
 	z-index: 30;
 	background: url(../img/icons/close.svg) 0 0 no-repeat;
+}
+.popup__video {
+	height: 100%;
+}
+iframe {
+	height: 100%;
+	width: 100%;
 }
 .header {
 	position: relative;
